@@ -107,7 +107,7 @@ if __name__ == '__main__':
     # insert_area_table(curson)
     #weather_sql.delete_table(curson)
     #result = weather_sql.select_weather_sql(curson, 0, '麻城')
-    name = input('please enter your adress:')
+    #name = input('please enter your adress:')
     find_weather_sql(curson, '麻城')
     con.commit()
     con.close()
